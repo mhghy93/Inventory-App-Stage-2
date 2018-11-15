@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_padding"
+    tools:context=".EditorActivity">
+
+    <TextView
+        android:id="@+id/product_name_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:text="@string/product_name" />
+
+    <EditText
+        android:id="@+id/edit_product_name"
+        style="@style/EditorEditTextStyle"
+        android:hint="@string/hint_text_only"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/product_price_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/product_name_text"
+        android:text="@string/product_price" />
+
+    <EditText
+        android:id="@+id/edit_product_price"
+        style="@style/EditorEditTextStyle"
+        android:layout_below="@id/product_name_text"
+        android:hint="@string/hint_numbers_only"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/product_quantity_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/product_price_text"
+        android:text="@string/product_quantity" />
+
+    <EditText
+        android:id="@+id/edit_product_quantity"
+        style="@style/EditorEditTextStyle"
+        android:layout_below="@id/product_price_text"
+        android:hint="@string/hint_numbers_only"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/supplier_name_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/product_quantity_text"
+        android:text="@string/supplier_name" />
+
+    <EditText
+        android:id="@+id/edit_supplier_name"
+        style="@style/EditorEditTextStyle"
+        android:layout_below="@+id/product_quantity_text"
+        android:hint="@string/hint_text_only"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/supplier_phone_number_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/supplier_name_text"
+        android:text="@string/supplier_phone_number" />
+
+    <EditText
+        android:id="@+id/edit_supplier_phone_number"
+        style="@style/EditorEditTextStyle"
+        android:layout_below="@+id/supplier_name_text"
+        android:hint="@string/hint_numbers_only"
+        android:inputType="phone" />
+
+
+</RelativeLayout>

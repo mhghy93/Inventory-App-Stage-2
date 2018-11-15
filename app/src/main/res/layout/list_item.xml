@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#2B3D4D"
+        tools:text="name" />
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"
+        tools:text="price" />
+
+    <TextView
+        android:id="@+id/product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_toRightOf="@id/product_price"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"
+        tools:text="quantity" />
+
+    <Button
+        android:id="@+id/edit_btn"
+        style="@style/GeneralButtonStyle"
+        android:layout_toLeftOf="@id/sale_btn"
+        android:text="@string/edit_button" />
+
+    <Button
+        android:id="@+id/sale_btn"
+        style="@style/GeneralButtonStyle"
+        android:layout_alignParentRight="true"
+        android:text="@string/sale_button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="app_name">Book Store App</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app -->
+    <string name="action_delete_all_entries">Delete All The Books</string>
+
+    <!-- Title for the activity to add a new product -->
+    <string name="editor_activity_title_new_product">Add A Product</string>
+
+    <!-- Title for the activity to view product details -->
+    <string name="editor_activity_title_product_details">Add A Product</string>
+
+    <!-- Title for the activity to edit a product -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for editor menu option to save book and leave editor  -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book  -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">No data</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book -->
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted  -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when current book was successfully updated -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Toast message in editor when current book has failed to be updated -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for product name information in the editor  -->
+    <string name="product_name">Product Name</string>
+
+    <!-- Label for price information in the editor  -->
+    <string name="product_price">Price</string>
+
+    <!-- Label for quantity information in the editor  -->
+    <string name="product_quantity">Quantity</string>
+
+    <!-- Label for supplier name information in the editor  -->
+    <string name="supplier_name">Supplier Name</string>
+
+    <!-- Label for supplier phone number information in the editor  -->
+    <string name="supplier_phone_number">Supplier Ph No</string>
+
+    <!-- Text hint(text only) in the editor -->
+    <string name="hint_text_only">Text Only</string>
+
+    <!-- Text hint(numbers only) in the editor -->
+    <string name="hint_numbers_only">Numbers Only</string>
+
+    <!-- Sale button -->
+    <string name="sale_button">Sell</string>
+
+    <!-- Edit button -->
+    <string name="edit_button">Edit</string>
+
+    <!-- Delete button -->
+    <string name="delete_button">Delete</string>
+
+    <!-- Order button -->
+    <string name="order_button">Order</string>
+
+    <!-- Increase button -->
+    <string name="increase_button">+</string>
+
+    <!-- Decrease button -->
+    <string name="decrease_button">-</string>
+
+    <!-- Currency -->
+    <string name="indian_currency">Rs</string>
+
+    <!-- Toast message in DetailView activity when current quantity was successfully updated -->
+    <string name="update_quantity_successful">Quantity updated</string>
+
+    <!-- Toast message in DetailView activity when current quantity has failed to be updated -->
+    <string name="update_quantity_failed">Quantity update failed</string>
+
+    <!-- Toast message in DetailView activity when current quantity has been changed -->
+    <string name="quantity_change_msg">Quantity was changed</string>
+
+    <!-- Toast message in DetailView activity when product has finished -->
+    <string name="quantity_finish_msg">No Product left</string>
+
+</resources>

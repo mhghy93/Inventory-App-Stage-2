@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common padding size in the entire app-->
+    <dimen name="activity_padding">16dp</dimen>
+
+    <!-- Common margin size in the entire app-->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- Common text size in the entire app-->
+    <dimen name="activity_text_size">16sp</dimen>
+
+    <!-- Common editText View width in the entire app-->
+    <dimen name="edit_text_width">200dp</dimen>
+
+    <!-- Increase/decrease Button width -->
+    <dimen name="increase_decrease_btn_width">50dp</dimen>
+
+    <!-- Order(Call) Button width -->
+    <dimen name="order_btn_width">60dp</dimen>
+
+    <!-- Order(Call) Button width -->
+    <dimen name="order_btn_text_size">12sp</dimen>
+
+    <!-- Button margin -->
+    <dimen name="btn_margin">10dp</dimen>
+
+</resources>

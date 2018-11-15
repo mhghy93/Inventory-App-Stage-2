@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    tools:context=".DetailViewActivity">
+
+    <TextView
+        android:id="@+id/detailed_product_name_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:text="@string/product_name" />
+
+    <TextView
+        android:id="@+id/product_name_details"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_alignParentRight="true"
+        android:text="pname" />
+
+    <TextView
+        android:id="@+id/detailed_product_price_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/detailed_product_name_text"
+        android:text="@string/product_price" />
+
+    <TextView
+        android:id="@+id/product_price_details"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@id/product_name_details"
+        android:layout_alignParentRight="true"
+        android:text="price" />
+
+    <TextView
+        android:id="@+id/detailed_product_quantity_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/detailed_product_price_text"
+        android:text="@string/product_quantity" />
+
+    <Button
+        android:id="@+id/increase_btn"
+        style="@style/IncreaseAndDecreaseButtonStyle"
+        android:layout_below="@id/detailed_product_price_text"
+        android:layout_toLeftOf="@id/product_quantity_details"
+        android:text="@string/increase_button" />
+
+    <Button
+        android:id="@+id/decrease_btn"
+        style="@style/IncreaseAndDecreaseButtonStyle"
+        android:layout_below="@id/detailed_product_price_text"
+        android:layout_toLeftOf="@id/increase_btn"
+        android:text="@string/decrease_button" />
+
+    <TextView
+        android:id="@+id/product_quantity_details"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@id/product_price_details"
+        android:layout_alignParentRight="true"
+        android:text="pquantity" />
+
+    <TextView
+        android:id="@+id/detailed_supplier_name_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/detailed_product_quantity_text"
+        android:text="@string/supplier_name" />
+
+    <TextView
+        android:id="@+id/supplier_name_details"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@id/product_quantity_details"
+        android:layout_alignParentRight="true"
+        android:text="sname" />
+
+    <TextView
+        android:id="@+id/detailed_supplier_phone_number_text"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@+id/detailed_supplier_name_text"
+        android:text="@string/supplier_phone_number" />
+
+    <Button
+        android:id="@+id/order_btn"
+        style="@style/OrderButtonStyle"
+        android:layout_below="@id/detailed_supplier_name_text"
+        android:layout_toLeftOf="@id/supplier_phone_number_details"
+        android:text="@string/order_button" />
+
+    <TextView
+        android:id="@+id/supplier_phone_number_details"
+        style="@style/EditorAndDetailTextViewStyle"
+        android:layout_below="@id/supplier_name_details"
+        android:layout_alignParentRight="true"
+        android:text="phno" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        style="@style/GeneralButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/delete_button" />
+
+</RelativeLayout>

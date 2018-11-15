@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for textView in the activity editor -->
+    <style name="EditorAndDetailTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_text_size</item>
+        <item name="android:textSize">@dimen/activity_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for editText in the activity editor -->
+    <style name="EditorEditTextStyle">
+        <item name="android:layout_width">@dimen/edit_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!-- Style for the button(Sell,Order,Edit,Delete) -->
+    <style name="GeneralButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">@dimen/activity_text_size</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for the increase/decrease button -->
+    <style name="IncreaseAndDecreaseButtonStyle">
+        <item name="android:layout_width">@dimen/increase_decrease_btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">@dimen/activity_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for the order(call) button -->
+    <style name="OrderButtonStyle">
+        <item name="android:layout_width">@dimen/order_btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:drawableLeft">@drawable/baseline_call_white_18</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">@dimen/order_btn_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
